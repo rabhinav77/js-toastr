@@ -1,0 +1,45 @@
+.toast-wrap {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+}
+
+.toast-wrap .toast {
+    z-index: 999999;
+    position: relative;
+    margin: 30px auto;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: inherit;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.toast:hover,
+.toast:focus {
+    opacity: 1;
+}
+
+.toast-wrap .toast.success {
+    background-color: #51a351;
+}
+
+.toast-wrap .toast.error {
+    background-color: #bd362f;
+}
+
+.toast-wrap .toast.warning {
+    background-color: #f89406;
+}
+
+.toast-wrap .toast.info {
+    background-color: #2f96b4;
+}
+
+.toast-wrap .toast .icon {
+    float: left;
+    padding-right: 10px;
+}
