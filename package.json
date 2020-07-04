@@ -1,0 +1,23 @@
+{
+  "name": "js-toastr",
+  "version": "1.0.1",
+  "description": "A lightweight javascript toast library with no dependencies and 1 KB Size.",
+  "main": "toast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabhinav77/js-toastr.git"
+  },
+  "keywords": [
+    "snackbar",
+    "toastr"
+  ],
+  "author": "Abhinav Rajput",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabhinav77/js-toastr/issues"
+  },
+  "homepage": "https://github.com/rabhinav77/js-toastr#readme"
+}
