@@ -20,9 +20,9 @@ $ yarn add js-toastr
 ```
 //Copy or import css from toast.css or add through CDN Link
 
-https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.css
+https://cdn.jsdelivr.net/npm/js-toastr/toast.css
 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-toastr/toast.css">
 
 ```
 
@@ -39,9 +39,9 @@ var toastr = require('js-toastr');
 
 // CDN Link
 
-https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.min.js
+https://cdn.jsdelivr.net/npm/js-toastr/toast.min.js
 
-<script src="https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-toastr/toast.min.js"></script>
 
 ```
 
