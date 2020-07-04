@@ -16,15 +16,28 @@ $ yarn add js-toastr
 
 ```
 
+# Css
+```
+//Copy or import css from toast.css or add through CDN Link
+https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.css
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.css">
+
+```
+
+# JS
 ```
 
 // using ES6 modules
-import toastr from 'js-toastr'
+import toastr from 'js-toastr';
  
 // using CommonJS modules
-var toastr = require('js-toastr')
+var toastr = require('js-toastr');
 
-Copy or import css from toast.css
+// CDN Link
+https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.min.js
+
+<script src="https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.min.js"></script>
 
 ```
 
@@ -48,4 +61,4 @@ toastr.message('Welocome to tiny toast library', 'warning', 3000);
 
 # License
 
-MIT
+[MIT](https://github.com/rabhinav77/js-toastr/blob/master/LICENSE)
