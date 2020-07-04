@@ -10,7 +10,6 @@
   "use strict";
   var toastr = {
     message: function(text, status, timeout) {
-      console.log("status", status);
       var status = status || 'success';
       var timeout = timeout || 4000;
       var obj = obj || {};
@@ -25,7 +24,6 @@
       var icon = document.createElement('span');
       icon.classList.add('icon');
       icon.innerHTML = this.getIcon(status);
-      console.log("this.getIcon(status)", this.getIcon(status));
       wrapper.addEventListener('click', function(e) {
         document.getElementById('toast-wrap').removeChild(
           wrapper);

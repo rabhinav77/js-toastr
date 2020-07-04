@@ -15,7 +15,7 @@
     "toastr"
   ],
   "author": "Abhinav Rajput",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rabhinav77/js-toastr/issues"
   },

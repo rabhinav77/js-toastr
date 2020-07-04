@@ -45,3 +45,7 @@ toastr.message('Welocome to tiny toast library', 'info', 3000);
 toastr.message('Welocome to tiny toast library', 'warning', 3000);
 
 ```
+
+# License
+
+MIT
