@@ -16,9 +16,10 @@ $ yarn add js-toastr
 
 ```
 
-# Css
+# CSS
 ```
 //Copy or import css from toast.css or add through CDN Link
+
 https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.css
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.css">
@@ -29,12 +30,15 @@ https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.css
 ```
 
 // using ES6 modules
+
 import toastr from 'js-toastr';
  
 // using CommonJS modules
+
 var toastr = require('js-toastr');
 
 // CDN Link
+
 https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.min.js
 
 <script src="https://cdn.jsdelivr.net/npm/js-toastr@1.0.3/toast.min.js"></script>
