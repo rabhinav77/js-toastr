@@ -9,9 +9,10 @@
 }(this, function() {
   "use strict";
   var toastr = {
+    position : 'top-right',
     message: function(text, status, timeout) {
       var status = status || 'success';
-      var timeout = timeout || 4000;
+      var timeout = timeout || 3000;
       var obj = obj || {};
       var id = document.getElementsByClassName('toast').length;
       var wrapper = document.createElement('div');
@@ -20,7 +21,6 @@
       textWrap.classList.add('text');
       textWrap.innerText = text;
       wrapper.appendChild(textWrap);
-
       var icon = document.createElement('span');
       icon.classList.add('icon');
       icon.innerHTML = this.getIcon(status);
@@ -35,7 +35,7 @@
       } else {
         var elem = document.createElement('div');
         elem.id = "toast-wrap";
-        elem.classList.add('toast-wrap')
+        elem.classList.add('toast-wrap',this.position)
         elem.appendChild(wrapper);
         document.body.appendChild(elem);
       }
@@ -48,6 +48,9 @@
             "toast-wrap"));
         }
       }, timeout);
+    },
+    setPosition:function(position){
+       this.position = position;
     },
     getIcon: function(status) {
       var icon = '';

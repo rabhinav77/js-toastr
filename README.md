@@ -46,6 +46,24 @@ https://cdn.jsdelivr.net/npm/js-toastr/toast.min.js
 ```
 
 
+# Set Message Postion (Optional)
+
+```
+toastr.setPosition('top-right');
+
+Position Options - 
+
+1. top-center
+2. bottom-center
+3. top-left
+4. bottom-left
+5. top-right
+6. bottom-right
+
+// Default Position if not set ==> top-right
+
+```
+
 # Usage
 
 ```

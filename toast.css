@@ -1,7 +1,5 @@
 .toast-wrap {
     position: fixed;
-    top: 12px;
-    right: 12px;
 }
 
 .toast-wrap .toast {
@@ -13,14 +11,55 @@
     color: #ffffff;
     opacity: 0.8;
     padding: 15px;
-    margin-right: inherit;
     width: fit-content;
     cursor: pointer;
 }
 
-.toast:hover,
-.toast:focus {
+.toast-wrap .toast:hover,
+.toast-wrap .toast:focus {
     opacity: 1;
+}
+
+.toast-wrap.top-center {
+    top: 30px;
+    right: 0;
+    width: 100%;
+}
+
+.toast-wrap.bottom-center {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.toast-wrap.top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.toast-wrap.bottom-left {
+    bottom: 12px;
+    left: 12px;
+}
+
+.toast-wrap.top-right {
+    top: 12px;
+    right: 12px;
+}
+
+.toast-wrap.bottom-right {
+    right: 12px;
+    bottom: 12px;
+}
+
+.toast-wrap.top-left .toast,
+.toast-wrap.bottom-left .toast {
+    margin-left: inherit;
+}
+
+.toast-wrap.top-right .toast,
+.toast-wrap.bottom-right .toast {
+    margin-right: inherit;
 }
 
 .toast-wrap .toast.success {

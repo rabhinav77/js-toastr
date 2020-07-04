@@ -3,7 +3,7 @@
 
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="./toast.css">
+    <link rel="stylesheet" type="text/css" href="./toast.min.css">
     <script src="./toast.min.js"></script>
     <style type="text/css">
     body {
@@ -51,6 +51,7 @@
 
 <body>
     <script type="text/javascript">
+        // toastr.setPosition('bottom-right');
     function btnPress(message, status) {
         toastr.message(message, status, 10000);
     }
